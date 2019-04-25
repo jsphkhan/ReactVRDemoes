@@ -18,7 +18,6 @@ export default class Header extends React.Component {
 const styles= StyleSheet.create({
     header: {
         alignItems: 'center',
-        //backgroundColor: 'red',
         height: 0.6,
         layoutOrigin: [0.5, 3, 0],
         transform: [{

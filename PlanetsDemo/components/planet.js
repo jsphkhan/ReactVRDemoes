@@ -3,7 +3,6 @@ import {
   asset,
   View,
   Model,
-  AmbientLight,
   Animated
 } from 'react-vr';
 
@@ -13,10 +12,9 @@ export default class Planet extends React.Component {
     }
     render() {
         const {planet} = this.props;
-        const {rotation} = this.state;
+        //const {rotation} = this.state;
         return (
             <View>
-                
             </View>
         );
     }

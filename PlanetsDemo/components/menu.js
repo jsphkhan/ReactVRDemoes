@@ -9,14 +9,12 @@ import {
 export default class Menu extends React.Component {
     constructor(props) {
         super(props);
-
         this.planets = ['Earth', 'Mars', 'Jupiter', 'Mercury'];
     }
     render() {
         const {onClick} = this.props;
         return (
             <View>
-                
             </View>
         );
     }
